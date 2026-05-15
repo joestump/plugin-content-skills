@@ -36,7 +36,7 @@ export default function pluginContentSkills(
   };
 
   return {
-    name: 'docusaurus-plugin-content-skills',
+    name: 'docusaurus-plugin-content-claude-plugin-skills',
     async loadContent() {
       try {
         const skills: SkillArtifact[] = [];
